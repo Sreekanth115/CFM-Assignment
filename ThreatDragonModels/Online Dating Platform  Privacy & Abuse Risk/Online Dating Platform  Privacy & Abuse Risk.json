@@ -1,0 +1,31 @@
+{
+  "version": "2.6.0",
+  "summary": {
+    "title": "Online Dating Platform  Privacy & Abuse Risk",
+    "owner": "Sreekanth",
+    "description": "",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "sreekanth"
+      }
+    ],
+    "diagrams": [
+      {
+        "id": 1,
+        "title": "Online Dating Platform  Privacy & Abuse Risk",
+        "diagramType": "CIA",
+        "placeholder": "New CIA diagram description",
+        "thumbnail": "./public/content/images/thumbnail.cia.jpg",
+        "version": "2.6.0",
+        "cells": [],
+        "description": "privacy, Harassment, and Fake Profiles."
+      }
+    ],
+    "diagramTop": 2,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
