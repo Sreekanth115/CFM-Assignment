@@ -20,12 +20,2533 @@
         "placeholder": "New CIA diagram description",
         "thumbnail": "./public/content/images/thumbnail.cia.jpg",
         "version": "2.6.0",
-        "cells": [],
+        "cells": [
+          {
+            "position": {
+              "x": 210,
+              "y": 190.00000000000142
+            },
+            "size": {
+              "width": 360,
+              "height": 290
+            },
+            "attrs": {
+              "label": {
+                "text": "Internet Boundary"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "18ce3d39-8067-41cc-be69-067a16c19350",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Internet Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "01632d27-8788-44c4-882f-271521a06fd5",
+                "299db392-2713-4967-ab12-66b1f01e6d91"
+              ],
+              "containedElements": [
+                "cab083db-9890-4908-ae0e-85af0881c03a",
+                "7a28dcdf-5b4d-436e-b474-0ffcc684b354"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 120,
+              "y": 560
+            },
+            "size": {
+              "width": 1090,
+              "height": 480
+            },
+            "attrs": {
+              "label": {
+                "text": "Trusted Backend"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "2d1fb00b-8341-4450-9c25-1a0b49d20c34",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trusted Backend",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "280082f2-e664-4edc-9a89-df30322472d7",
+                "5dd2515e-cd1d-4f96-8dc2-27c8eac3af6a",
+                "5dec01f1-07f3-470b-8622-bc232cb6928f",
+                "a7490389-4048-4a24-a56d-82574557a11b",
+                "6dc71539-05cb-4d46-8998-8090e1c92fdd",
+                "d7c29a0b-1dd8-4edd-aee7-9a8c772e7c44",
+                "01632d27-8788-44c4-882f-271521a06fd5",
+                "299db392-2713-4967-ab12-66b1f01e6d91"
+              ],
+              "containedElements": [
+                "c68943b3-76f8-4ae4-bdba-c5c35748b6e8",
+                "6d56b6b8-1478-4b8f-b430-024a3f49f8c7",
+                "10bb9720-94c8-4f31-86fb-5be50f3f7fb1",
+                "b51b55e4-efca-4e0c-90cf-d6ac5097ed73",
+                "7ea7d66c-df3e-4921-9590-b929eb908939",
+                "b25c29d2-9ec6-465b-ba56-f7375044d9f1",
+                "60ab43d8-126a-4c9c-b6c7-f66ac3e86aab"
+              ]
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
+            }
+          },
+          {
+            "position": {
+              "x": 257.5,
+              "y": 230
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "User Mobile App"
+              },
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "2550b207-0480-4748-833e-95d0703e3cd5"
+                },
+                {
+                  "group": "right",
+                  "id": "e9ea0d9d-5855-4db8-84ea-022521c0ff96"
+                },
+                {
+                  "group": "bottom",
+                  "id": "7fb75145-3262-4742-bc5e-b77623f011e9"
+                },
+                {
+                  "group": "left",
+                  "id": "7bf6626c-6e70-42cd-84d1-fc6398b53893"
+                }
+              ]
+            },
+            "id": "cab083db-9890-4908-ae0e-85af0881c03a",
+            "zIndex": 1,
+            "data": {
+              "type": "tm.Actor",
+              "name": "User Mobile App",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "providesAuthentication": true,
+              "threats": [
+                {
+                  "id": "c8665f40-8cee-423b-85e3-028c4bde03ca",
+                  "title": "App tampering",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Integrity",
+                  "description": "Modified app bypasses security controls",
+                  "mitigation": "App integrity checks, code signing",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 1,
+                  "score": "7"
+                },
+                {
+                  "id": "068da236-afdb-414b-bead-0a690f25d9f7",
+                  "title": "Data leakage",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Confidentiality",
+                  "description": "Sensitive data stored insecurely on device",
+                  "mitigation": "Secure storage (Keystore), encryption",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 2,
+                  "score": "8"
+                },
+                {
+                  "id": "d80defc1-65ee-4338-a0d0-1bf49afab187",
+                  "title": "Fake client spoofing",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Confidentiality",
+                  "description": "Unauthorized app mimics real client",
+                  "mitigation": "Certificate pinning, API authentication",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 3,
+                  "score": "6"
+                }
+              ],
+              "threatFrequency": {
+                "confidentiality": 2,
+                "integrity": 1,
+                "availability": 0
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 662.5,
+              "y": 230
+            },
+            "size": {
+              "width": 140,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Admin Dashboard"
+              },
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "2550b207-0480-4748-833e-95d0703e3cd5"
+                },
+                {
+                  "group": "right",
+                  "id": "e9ea0d9d-5855-4db8-84ea-022521c0ff96"
+                },
+                {
+                  "group": "bottom",
+                  "id": "7fb75145-3262-4742-bc5e-b77623f011e9"
+                },
+                {
+                  "group": "left",
+                  "id": "7bf6626c-6e70-42cd-84d1-fc6398b53893"
+                }
+              ]
+            },
+            "id": "2b019de8-b2f3-470f-bdb3-605679ad803b",
+            "zIndex": 2,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Admin Dashboard",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "providesAuthentication": true,
+              "threats": [
+                {
+                  "id": "55e3f177-fe83-44ac-a976-ed4b6cda3616",
+                  "title": "Admin account compromise",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Confidentiality",
+                  "description": "Attacker gains admin access",
+                  "mitigation": "MFA",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 28,
+                  "score": "10"
+                },
+                {
+                  "id": "275dd573-0804-486b-9780-1ea7166a54e0",
+                  "title": "Unauthorized actions",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Integrity",
+                  "description": "Admin performs malicious changes",
+                  "mitigation": "Audit logs",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 29,
+                  "score": "8"
+                },
+                {
+                  "id": "ef618ca5-9270-4171-86d9-3a94f2fde239",
+                  "title": "Dashboard downtime",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Availability",
+                  "description": "Admin cannot manage system",
+                  "mitigation": "Redundancy",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 30,
+                  "score": "5"
+                }
+              ],
+              "threatFrequency": {
+                "confidentiality": 1,
+                "integrity": 1,
+                "availability": 1
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 400,
+              "y": 340
+            },
+            "size": {
+              "width": 130,
+              "height": 130
+            },
+            "attrs": {
+              "text": {
+                "text": "API Gateway"
+              },
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "368275e3-16ec-48de-b0bf-c47f00c8bd87"
+                },
+                {
+                  "group": "right",
+                  "id": "80ca6071-3ebf-4f2e-b6f0-bdd57d86fe09"
+                },
+                {
+                  "group": "bottom",
+                  "id": "26d87ab3-bd34-4da2-a606-cb881ce3526f"
+                },
+                {
+                  "group": "left",
+                  "id": "08c0ebac-f408-4b73-93f8-73d96c2d62a4"
+                }
+              ]
+            },
+            "id": "7a28dcdf-5b4d-436e-b474-0ffcc684b354",
+            "zIndex": 3,
+            "data": {
+              "type": "tm.Process",
+              "name": "API Gateway",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": [
+                {
+                  "id": "7deef394-19c3-48fa-a044-465192f34ec2",
+                  "title": "API DoS attack",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Availability",
+                  "description": "Flooding requests disrupt service",
+                  "mitigation": "Rate limiting, WAF",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 4,
+                  "score": "9"
+                },
+                {
+                  "id": "572280a6-2cef-43a7-b69a-735004d8242e",
+                  "title": "Request tampering",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Integrity",
+                  "description": "Modified API inputs cause unexpected behavior",
+                  "mitigation": "Modified API inputs cause unexpected behavior",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 5,
+                  "score": "7"
+                },
+                {
+                  "id": "d4a882b6-b504-4d7e-8645-fee17f2a2969",
+                  "title": "Unauthorized access",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Confidentiality",
+                  "description": "Unauthenticated API calls expose data",
+                  "mitigation": "JWT/OAuth authentication",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 6,
+                  "score": "8"
+                }
+              ],
+              "threatFrequency": {
+                "confidentiality": 1,
+                "integrity": 1,
+                "availability": 1
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 140,
+              "y": 600
+            },
+            "size": {
+              "width": 130,
+              "height": 140
+            },
+            "attrs": {
+              "text": {
+                "text": "Auth Service"
+              },
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "368275e3-16ec-48de-b0bf-c47f00c8bd87"
+                },
+                {
+                  "group": "right",
+                  "id": "80ca6071-3ebf-4f2e-b6f0-bdd57d86fe09"
+                },
+                {
+                  "group": "bottom",
+                  "id": "26d87ab3-bd34-4da2-a606-cb881ce3526f"
+                },
+                {
+                  "group": "left",
+                  "id": "08c0ebac-f408-4b73-93f8-73d96c2d62a4"
+                }
+              ]
+            },
+            "id": "c68943b3-76f8-4ae4-bdba-c5c35748b6e8",
+            "zIndex": 4,
+            "data": {
+              "type": "tm.Process",
+              "name": "Auth Service",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": [
+                {
+                  "id": "1edb5e29-9cbb-4f37-a100-598741612e5c",
+                  "title": "Account takeover",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Confidentiality",
+                  "description": "Attacker gains access to user account",
+                  "mitigation": "Attacker gains access to user account",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 7,
+                  "score": "9"
+                },
+                {
+                  "id": "8607a2c8-1413-4340-b757-95f8ce80a417",
+                  "title": "Credential stuffing",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Confidentiality",
+                  "description": "Automated login attempts using leaked creds",
+                  "mitigation": "Rate limiting, CAPTCHA",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 8,
+                  "score": "8"
+                },
+                {
+                  "id": "94748308-e6dc-4e92-92bb-308885fce679",
+                  "title": "Login repudiation",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Integrity",
+                  "description": "User denies login actions",
+                  "mitigation": "Audit logs",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 9,
+                  "score": "5"
+                }
+              ],
+              "threatFrequency": {
+                "confidentiality": 2,
+                "integrity": 1,
+                "availability": 0
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 370,
+              "y": 625
+            },
+            "size": {
+              "width": 190,
+              "height": 140
+            },
+            "attrs": {
+              "text": {
+                "text": "Matching Engine"
+              },
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "368275e3-16ec-48de-b0bf-c47f00c8bd87"
+                },
+                {
+                  "group": "right",
+                  "id": "80ca6071-3ebf-4f2e-b6f0-bdd57d86fe09"
+                },
+                {
+                  "group": "bottom",
+                  "id": "26d87ab3-bd34-4da2-a606-cb881ce3526f"
+                },
+                {
+                  "group": "left",
+                  "id": "08c0ebac-f408-4b73-93f8-73d96c2d62a4"
+                }
+              ]
+            },
+            "id": "6d56b6b8-1478-4b8f-b430-024a3f49f8c7",
+            "zIndex": 5,
+            "data": {
+              "type": "tm.Process",
+              "name": "Matching Engine",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": [
+                {
+                  "id": "e783114b-972e-436a-8a1f-371097dd7127",
+                  "title": "Location inference",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Confidentiality",
+                  "description": "Attacker deduces exact user location",
+                  "mitigation": "Location fuzzing",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 10,
+                  "score": "9"
+                },
+                {
+                  "id": "1aec896d-295b-4199-b505-179867f59e55",
+                  "title": "Manipulated inputs",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Integrity",
+                  "description": "Fake preferences affect matching logic",
+                  "mitigation": "Input validation",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 11,
+                  "score": "6"
+                },
+                {
+                  "id": "280cab7a-6059-422b-af31-0641a4a424d8",
+                  "title": "Service overload",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Availability",
+                  "description": "Excessive match requests overload system",
+                  "mitigation": "Throttling",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 12,
+                  "score": "7"
+                }
+              ],
+              "threatFrequency": {
+                "confidentiality": 1,
+                "integrity": 1,
+                "availability": 1
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 662.5,
+              "y": 630
+            },
+            "size": {
+              "width": 160,
+              "height": 130
+            },
+            "attrs": {
+              "text": {
+                "text": "Messaging Service"
+              },
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "368275e3-16ec-48de-b0bf-c47f00c8bd87"
+                },
+                {
+                  "group": "right",
+                  "id": "80ca6071-3ebf-4f2e-b6f0-bdd57d86fe09"
+                },
+                {
+                  "group": "bottom",
+                  "id": "26d87ab3-bd34-4da2-a606-cb881ce3526f"
+                },
+                {
+                  "group": "left",
+                  "id": "08c0ebac-f408-4b73-93f8-73d96c2d62a4"
+                }
+              ]
+            },
+            "id": "10bb9720-94c8-4f31-86fb-5be50f3f7fb1",
+            "zIndex": 6,
+            "data": {
+              "type": "tm.Process",
+              "name": "Messaging Service",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": [
+                {
+                  "id": "2df66c1d-8870-4ce6-8d26-bccaf1c01794",
+                  "title": "Message interception",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Confidentiality",
+                  "description": "Messages read by attacker",
+                  "mitigation": "End-to-end encryption",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 13,
+                  "score": "9"
+                },
+                {
+                  "id": "4e9bb930-6342-489d-97a7-05073613d26d",
+                  "title": "Malicious links",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Integrity",
+                  "description": "Phishing links sent via chat",
+                  "mitigation": "Content filtering",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 14,
+                  "score": "7"
+                },
+                {
+                  "id": "580542d1-f346-47c3-ab76-e129d8ac9312",
+                  "title": "Spam flooding",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Availability",
+                  "description": "Excess messages degrade service",
+                  "mitigation": "Rate limiting",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 15,
+                  "score": "6"
+                }
+              ],
+              "threatFrequency": {
+                "confidentiality": 1,
+                "integrity": 1,
+                "availability": 1
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 980,
+              "y": 635
+            },
+            "size": {
+              "width": 190,
+              "height": 130
+            },
+            "attrs": {
+              "text": {
+                "text": "Moderation Service"
+              },
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "368275e3-16ec-48de-b0bf-c47f00c8bd87"
+                },
+                {
+                  "group": "right",
+                  "id": "80ca6071-3ebf-4f2e-b6f0-bdd57d86fe09"
+                },
+                {
+                  "group": "bottom",
+                  "id": "26d87ab3-bd34-4da2-a606-cb881ce3526f"
+                },
+                {
+                  "group": "left",
+                  "id": "08c0ebac-f408-4b73-93f8-73d96c2d62a4"
+                }
+              ]
+            },
+            "id": "b51b55e4-efca-4e0c-90cf-d6ac5097ed73",
+            "zIndex": 7,
+            "data": {
+              "type": "tm.Process",
+              "name": "Moderation Service",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": [
+                {
+                  "id": "2b6e1f47-a5e5-4c50-a988-ff7f836a48f0",
+                  "title": "Report abuse",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Integrity",
+                  "description": "Users falsely report others",
+                  "mitigation": "Abuse detection logic",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 16,
+                  "score": "6"
+                },
+                {
+                  "id": "6b710496-9f92-41b3-a4b0-b2838f4385ad",
+                  "title": "Privilege misuse",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Confidentiality",
+                  "description": "Admin misuse access to user data",
+                  "mitigation": "RBAC",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 17,
+                  "score": "8"
+                },
+                {
+                  "id": "886be51b-7598-42d8-baaf-32e438d33a2d",
+                  "title": "Moderation bypass",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Integrity",
+                  "description": "Harmful content avoids detection",
+                  "mitigation": "AI + human moderation",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 18,
+                  "score": "7"
+                }
+              ],
+              "threatFrequency": {
+                "confidentiality": 1,
+                "integrity": 2,
+                "availability": 0
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 210,
+              "y": 900
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "User DB"
+              },
+              "topLine": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "721fe686-2050-4cdf-be62-ad347dbf693f"
+                },
+                {
+                  "group": "right",
+                  "id": "85ec2feb-7f85-4a53-803d-6fedc02572a9"
+                },
+                {
+                  "group": "bottom",
+                  "id": "6a5ce1da-c143-4080-946a-ef8bfc4be3a4"
+                },
+                {
+                  "group": "left",
+                  "id": "4514a3e6-3d36-4d45-96d5-4f4877453173"
+                }
+              ]
+            },
+            "id": "7ea7d66c-df3e-4921-9590-b929eb908939",
+            "zIndex": 8,
+            "data": {
+              "type": "tm.Store",
+              "name": "User DB",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isALog": false,
+              "isEncrypted": true,
+              "isSigned": false,
+              "storesCredentials": true,
+              "storesInventory": false,
+              "threats": [
+                {
+                  "id": "18c10180-8c63-46c6-be7d-00d57663f5f5",
+                  "title": "Data breach",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Confidentiality",
+                  "description": "Exposure of user PII",
+                  "mitigation": "Encryption at rest",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 19,
+                  "score": "10"
+                },
+                {
+                  "id": "03cc8af5-fa80-47db-9744-d3d7b2065067",
+                  "title": "Data tampering",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Integrity",
+                  "description": "Unauthorized profile changes",
+                  "mitigation": "Access control",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 20,
+                  "score": "8"
+                },
+                {
+                  "id": "e5ca6b01-8f93-4924-bde2-5e7f6992a756",
+                  "title": "DB downtime",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Availability",
+                  "description": "Service unavailable due to DB failure",
+                  "mitigation": "Backups, replication",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 21,
+                  "score": "7"
+                }
+              ],
+              "threatFrequency": {
+                "confidentiality": 1,
+                "integrity": 1,
+                "availability": 1
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 476,
+              "y": 890
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Location DB"
+              },
+              "topLine": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "721fe686-2050-4cdf-be62-ad347dbf693f"
+                },
+                {
+                  "group": "right",
+                  "id": "85ec2feb-7f85-4a53-803d-6fedc02572a9"
+                },
+                {
+                  "group": "bottom",
+                  "id": "6a5ce1da-c143-4080-946a-ef8bfc4be3a4"
+                },
+                {
+                  "group": "left",
+                  "id": "4514a3e6-3d36-4d45-96d5-4f4877453173"
+                }
+              ]
+            },
+            "id": "b25c29d2-9ec6-465b-ba56-f7375044d9f1",
+            "zIndex": 9,
+            "data": {
+              "type": "tm.Store",
+              "name": "Location DB",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isALog": true,
+              "isEncrypted": true,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": [
+                {
+                  "id": "41459a1e-c63e-447c-b6d2-0f5ddce5fddb",
+                  "title": "Location leak",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Confidentiality",
+                  "description": "Exposure of real-time location",
+                  "mitigation": "Store approximate location",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 22,
+                  "score": "10"
+                },
+                {
+                  "id": "e0243893-13e8-4447-bffc-ecd4916c7959",
+                  "title": "Tracking inference",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Confidentiality",
+                  "description": "Movement patterns identified",
+                  "mitigation": "Data minimization",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 23,
+                  "score": "9"
+                },
+                {
+                  "id": "c23f8071-ad55-4320-8a7c-5d87a6f387a2",
+                  "title": "Data corruption",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Integrity",
+                  "description": "Incorrect location data stored",
+                  "mitigation": "Validation checks",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 24,
+                  "score": "6"
+                }
+              ],
+              "threatFrequency": {
+                "confidentiality": 2,
+                "integrity": 1,
+                "availability": 0
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 780,
+              "y": 890
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Chat DB"
+              },
+              "topLine": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "721fe686-2050-4cdf-be62-ad347dbf693f"
+                },
+                {
+                  "group": "right",
+                  "id": "85ec2feb-7f85-4a53-803d-6fedc02572a9"
+                },
+                {
+                  "group": "bottom",
+                  "id": "6a5ce1da-c143-4080-946a-ef8bfc4be3a4"
+                },
+                {
+                  "group": "left",
+                  "id": "4514a3e6-3d36-4d45-96d5-4f4877453173"
+                }
+              ]
+            },
+            "id": "60ab43d8-126a-4c9c-b6c7-f66ac3e86aab",
+            "zIndex": 10,
+            "data": {
+              "type": "tm.Store",
+              "name": "Chat DB",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isALog": true,
+              "isEncrypted": true,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": true,
+              "threats": [
+                {
+                  "id": "dde16fb6-9200-4f09-aef3-bdef025f1bb5",
+                  "title": "Chat leakage",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Confidentiality",
+                  "description": "Private conversations exposed",
+                  "mitigation": "Encryption",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 25,
+                  "score": "9"
+                },
+                {
+                  "id": "2162b4e1-2994-4d18-956e-27c830646e55",
+                  "title": "Message tampering",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Integrity",
+                  "description": "Messages altered in DB",
+                  "mitigation": "Hashing, integrity checks",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 26,
+                  "score": "7"
+                },
+                {
+                  "id": "5bc77499-d17b-4166-9700-4fb9aec03369",
+                  "title": "Storage failure",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Availability",
+                  "description": "Messages unavailable",
+                  "mitigation": "Backup systems",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 27,
+                  "score": "6"
+                }
+              ],
+              "threatFrequency": {
+                "confidentiality": 1,
+                "integrity": 1,
+                "availability": 1
+              }
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "HTTPS Requests",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "5b035d10-8870-4f61-9c8b-defcef011805",
+                  "title": "MITM Attack",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Confidentiality",
+                  "description": "Attacker intercepts login/profile data",
+                  "mitigation": "HTTPS (TLS), certificate pinning",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 31,
+                  "score": "9"
+                },
+                {
+                  "id": "8a1752bd-497e-4d68-9b9b-04360c18f45a",
+                  "title": "Data Tampering",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Integrity",
+                  "description": "Request modified in transit",
+                  "mitigation": "TLS, request signing",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 32,
+                  "score": "8"
+                },
+                {
+                  "id": "5772178b-8b50-4a42-ad5a-b6fa56766b49",
+                  "title": "Replay Attack",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Integrity",
+                  "description": "Reuse of captured requests",
+                  "mitigation": "Nonce, timestamps",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 33,
+                  "score": "7"
+                }
+              ],
+              "trustBoundaryIds": [],
+              "threatFrequency": {
+                "confidentiality": 1,
+                "integrity": 2,
+                "availability": 0
+              }
+            },
+            "labels": [
+              "HTTPS Requests"
+            ],
+            "id": "afb9c78b-b087-4806-8454-08a41a53e7a7",
+            "source": {
+              "cell": "cab083db-9890-4908-ae0e-85af0881c03a",
+              "port": "7fb75145-3262-4742-bc5e-b77623f011e9"
+            },
+            "target": {
+              "cell": "7a28dcdf-5b4d-436e-b474-0ffcc684b354",
+              "port": "368275e3-16ec-48de-b0bf-c47f00c8bd87"
+            },
+            "vertices": [
+              {
+                "x": 400,
+                "y": 320
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Auth Requests",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "7dbf2379-fb85-4d73-9d78-f89be9962209",
+                  "title": "Service Spoofing",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Confidentiality",
+                  "description": "Fake service impersonates Auth Service",
+                  "mitigation": "mTLS",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 34,
+                  "score": "8"
+                },
+                {
+                  "id": "422ddf9e-a1d7-4cf2-bc5c-68f2202680ac",
+                  "title": "Token Leakage",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Integrity",
+                  "description": "Auth tokens exposed internally",
+                  "mitigation": "Secure token handling",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 35,
+                  "score": "7"
+                }
+              ],
+              "trustBoundaryIds": [
+                "2d1fb00b-8341-4450-9c25-1a0b49d20c34"
+              ],
+              "threatFrequency": {
+                "confidentiality": 1,
+                "integrity": 1,
+                "availability": 0
+              }
+            },
+            "labels": [
+              "Auth Requests"
+            ],
+            "id": "280082f2-e664-4edc-9a89-df30322472d7",
+            "source": {
+              "x": 420,
+              "y": 440
+            },
+            "target": {
+              "cell": "c68943b3-76f8-4ae4-bdba-c5c35748b6e8",
+              "port": "368275e3-16ec-48de-b0bf-c47f00c8bd87"
+            },
+            "vertices": [
+              {
+                "x": 310,
+                "y": 540
+              },
+              {
+                "x": 270,
+                "y": 570
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "User Data",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "e2d86955-1156-45c0-a0e9-7792357123d2",
+                  "title": "Data Leakage",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Confidentiality",
+                  "description": "PII exposed during transfer",
+                  "mitigation": "Encryption in transit",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 40,
+                  "score": "9"
+                },
+                {
+                  "id": "8715c9f8-efe6-4142-a1cd-2a19ff86c22f",
+                  "title": "Unauthorized Query",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Integrity",
+                  "description": "Unauthorized DB writes",
+                  "mitigation": "Access control",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 41,
+                  "score": "8"
+                }
+              ],
+              "trustBoundaryIds": [
+                "2d1fb00b-8341-4450-9c25-1a0b49d20c34"
+              ],
+              "threatFrequency": {
+                "confidentiality": 1,
+                "integrity": 1,
+                "availability": 0
+              }
+            },
+            "labels": [
+              "User Data"
+            ],
+            "id": "5dd2515e-cd1d-4f96-8dc2-27c8eac3af6a",
+            "source": {
+              "x": 200,
+              "y": 740
+            },
+            "target": {
+              "cell": "7ea7d66c-df3e-4921-9590-b929eb908939",
+              "port": "721fe686-2050-4cdf-be62-ad347dbf693f"
+            },
+            "vertices": [
+              {
+                "x": 230,
+                "y": 810
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Location Data",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "c7ba0250-c09e-4371-9afd-b48283032faf",
+                  "title": "Location Tracking",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Confidentiality",
+                  "description": "Exact coordinates stored/transferred",
+                  "mitigation": "Obfuscation",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 42,
+                  "score": "10"
+                },
+                {
+                  "id": "76ead725-e727-48e9-9433-8c39d485b5f6",
+                  "title": "Data Tampering",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Integrity",
+                  "description": "Fake location injected",
+                  "mitigation": "Validation",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 43,
+                  "score": "7"
+                }
+              ],
+              "trustBoundaryIds": [
+                "2d1fb00b-8341-4450-9c25-1a0b49d20c34"
+              ],
+              "threatFrequency": {
+                "confidentiality": 1,
+                "integrity": 1,
+                "availability": 0
+              }
+            },
+            "labels": [
+              "Location Data"
+            ],
+            "id": "5dec01f1-07f3-470b-8622-bc232cb6928f",
+            "source": {
+              "x": 470,
+              "y": 770
+            },
+            "target": {
+              "cell": "b25c29d2-9ec6-465b-ba56-f7375044d9f1",
+              "port": "721fe686-2050-4cdf-be62-ad347dbf693f"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Chat Storage",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "cccc2121-b99e-4ca8-824a-fa5f02ab6b3b",
+                  "title": "Chat Leakage",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Confidentiality",
+                  "description": "Messages exposed while storing",
+                  "mitigation": "Encryption",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 45,
+                  "score": "9"
+                },
+                {
+                  "id": "4483696f-3708-43db-af23-db2d409a5d1a",
+                  "title": "Sensitive Data Exposure",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Confidentiality",
+                  "description": "Private messages exposed unnecessarily",
+                  "mitigation": "Data minimization",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 46,
+                  "score": "8"
+                }
+              ],
+              "trustBoundaryIds": [
+                "2d1fb00b-8341-4450-9c25-1a0b49d20c34"
+              ],
+              "threatFrequency": {
+                "confidentiality": 2,
+                "integrity": 0,
+                "availability": 0
+              }
+            },
+            "labels": [
+              "Chat Storage"
+            ],
+            "id": "a7490389-4048-4a24-a56d-82574557a11b",
+            "source": {
+              "x": 740,
+              "y": 760
+            },
+            "target": {
+              "cell": "60ab43d8-126a-4c9c-b6c7-f66ac3e86aab",
+              "port": "721fe686-2050-4cdf-be62-ad347dbf693f"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Moderation Data",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "a8c9583c-6535-48d7-8404-50a515d34775",
+                  "title": "Processing Tampering",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Integrity",
+                  "description": "Moderation results manipulated",
+                  "mitigation": "Secure pipeline",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 48,
+                  "score": "6"
+                }
+              ],
+              "trustBoundaryIds": [
+                "2d1fb00b-8341-4450-9c25-1a0b49d20c34"
+              ],
+              "threatFrequency": {
+                "confidentiality": 0,
+                "integrity": 1,
+                "availability": 0
+              }
+            },
+            "labels": [
+              "Moderation Data"
+            ],
+            "id": "6dc71539-05cb-4d46-8998-8090e1c92fdd",
+            "source": {
+              "x": 810,
+              "y": 700
+            },
+            "target": {
+              "cell": "b51b55e4-efca-4e0c-90cf-d6ac5097ed73",
+              "port": "08c0ebac-f408-4b73-93f8-73d96c2d62a4"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Admin Controls",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "b44f6d44-01c1-4335-8bff-eb200bc0b537",
+                  "title": "Unauthorized Commands",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Integrity",
+                  "description": "Malicious admin action",
+                  "mitigation": "RBAC",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 49,
+                  "score": "9"
+                },
+                {
+                  "id": "79fa6e9c-d496-49c4-9c1e-d775230e99bb",
+                  "title": "Session Hijacking",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Confidentiality",
+                  "description": "Admin session stolen",
+                  "mitigation": "Secure session management",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 50,
+                  "score": "9"
+                }
+              ],
+              "trustBoundaryIds": [
+                "2d1fb00b-8341-4450-9c25-1a0b49d20c34"
+              ],
+              "threatFrequency": {
+                "confidentiality": 1,
+                "integrity": 1,
+                "availability": 0
+              }
+            },
+            "labels": [
+              "Admin Controls"
+            ],
+            "id": "d7c29a0b-1dd8-4edd-aee7-9a8c772e7c44",
+            "source": {
+              "cell": "2b019de8-b2f3-470f-bdb3-605679ad803b",
+              "port": "7fb75145-3262-4742-bc5e-b77623f011e9"
+            },
+            "target": {
+              "cell": "b51b55e4-efca-4e0c-90cf-d6ac5097ed73",
+              "port": "368275e3-16ec-48de-b0bf-c47f00c8bd87"
+            },
+            "vertices": [
+              {
+                "x": 770,
+                "y": 360
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Match Requests",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "56d0eb97-1c13-4e41-94fc-41aef2273636",
+                  "title": "Location Exposure",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Confidentiality",
+                  "description": "Raw GPS shared internally",
+                  "mitigation": "Minimize precision",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 36,
+                  "score": "9"
+                },
+                {
+                  "id": "0af52776-9237-48f9-a605-d9a95d1c5fec",
+                  "title": "New CIA threat",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Integrity",
+                  "description": "Match parameters manipulated",
+                  "mitigation": "Input validation",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 37,
+                  "score": "6"
+                }
+              ],
+              "trustBoundaryIds": [
+                "18ce3d39-8067-41cc-be69-067a16c19350",
+                "2d1fb00b-8341-4450-9c25-1a0b49d20c34"
+              ],
+              "threatFrequency": {
+                "confidentiality": 1,
+                "integrity": 1,
+                "availability": 0
+              }
+            },
+            "labels": [
+              "Match Requests"
+            ],
+            "id": "01632d27-8788-44c4-882f-271521a06fd5",
+            "source": {
+              "cell": "7a28dcdf-5b4d-436e-b474-0ffcc684b354",
+              "port": "26d87ab3-bd34-4da2-a606-cb881ce3526f"
+            },
+            "target": {
+              "cell": "6d56b6b8-1478-4b8f-b430-024a3f49f8c7",
+              "port": "368275e3-16ec-48de-b0bf-c47f00c8bd87"
+            },
+            "vertices": [
+              {
+                "x": 490,
+                "y": 520
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Messages",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "7dbb11cd-106c-415c-bd62-27c2b066fd51",
+                  "title": "Message Interception",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Confidentiality",
+                  "description": "Messages read in transit",
+                  "mitigation": "End-to-end encryption",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 38,
+                  "score": "9"
+                },
+                {
+                  "id": "0353f28f-cd57-401d-90d5-5ae191c6e7dd",
+                  "title": "Malicious Payload",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Integrity",
+                  "description": "Injection of harmful content",
+                  "mitigation": "Input sanitization",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 39,
+                  "score": "7"
+                }
+              ],
+              "trustBoundaryIds": [
+                "18ce3d39-8067-41cc-be69-067a16c19350",
+                "2d1fb00b-8341-4450-9c25-1a0b49d20c34"
+              ],
+              "threatFrequency": {
+                "confidentiality": 1,
+                "integrity": 1,
+                "availability": 0
+              }
+            },
+            "labels": [
+              "Messages"
+            ],
+            "id": "299db392-2713-4967-ab12-66b1f01e6d91",
+            "source": {
+              "cell": "7a28dcdf-5b4d-436e-b474-0ffcc684b354",
+              "port": "26d87ab3-bd34-4da2-a606-cb881ce3526f"
+            },
+            "target": {
+              "cell": "10bb9720-94c8-4f31-86fb-5be50f3f7fb1",
+              "port": "368275e3-16ec-48de-b0bf-c47f00c8bd87"
+            },
+            "vertices": [
+              {
+                "x": 650,
+                "y": 590
+              }
+            ]
+          }
+        ],
         "description": "privacy, Harassment, and Fake Profiles."
       }
     ],
     "diagramTop": 2,
     "reviewer": "",
-    "threatTop": 0
+    "threatTop": 50
   }
 }
