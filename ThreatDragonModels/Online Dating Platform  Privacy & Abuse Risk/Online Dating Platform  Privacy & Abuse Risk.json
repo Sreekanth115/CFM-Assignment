@@ -23,7 +23,7 @@
         "cells": [
           {
             "position": {
-              "x": 210,
+              "x": 170,
               "y": 190.00000000000142
             },
             "size": {
@@ -57,8 +57,8 @@
           },
           {
             "position": {
-              "x": 120,
-              "y": 560
+              "x": 80,
+              "y": 580
             },
             "size": {
               "width": 1090,
@@ -80,12 +80,12 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "280082f2-e664-4edc-9a89-df30322472d7",
                 "5dd2515e-cd1d-4f96-8dc2-27c8eac3af6a",
                 "5dec01f1-07f3-470b-8622-bc232cb6928f",
                 "a7490389-4048-4a24-a56d-82574557a11b",
                 "6dc71539-05cb-4d46-8998-8090e1c92fdd",
                 "d7c29a0b-1dd8-4edd-aee7-9a8c772e7c44",
+                "280082f2-e664-4edc-9a89-df30322472d7",
                 "01632d27-8788-44c4-882f-271521a06fd5",
                 "299db392-2713-4967-ab12-66b1f01e6d91"
               ],
@@ -98,15 +98,6 @@
                 "b25c29d2-9ec6-465b-ba56-f7375044d9f1",
                 "60ab43d8-126a-4c9c-b6c7-f66ac3e86aab"
               ]
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -1879,98 +1870,7 @@
                   "name": "block"
                 },
                 "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Auth Requests",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": true,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [
-                {
-                  "id": "7dbf2379-fb85-4d73-9d78-f89be9962209",
-                  "title": "Service Spoofing",
-                  "status": "Open",
-                  "severity": "High",
-                  "type": "Confidentiality",
-                  "description": "Fake service impersonates Auth Service",
-                  "mitigation": "mTLS",
-                  "modelType": "CIA",
-                  "new": false,
-                  "number": 34,
-                  "score": "8"
-                },
-                {
-                  "id": "422ddf9e-a1d7-4cf2-bc5c-68f2202680ac",
-                  "title": "Token Leakage",
-                  "status": "Open",
-                  "severity": "High",
-                  "type": "Integrity",
-                  "description": "Auth tokens exposed internally",
-                  "mitigation": "Secure token handling",
-                  "modelType": "CIA",
-                  "new": false,
-                  "number": 35,
-                  "score": "7"
-                }
-              ],
-              "trustBoundaryIds": [
-                "2d1fb00b-8341-4450-9c25-1a0b49d20c34"
-              ],
-              "threatFrequency": {
-                "confidentiality": 1,
-                "integrity": 1,
-                "availability": 0
-              }
-            },
-            "labels": [
-              "Auth Requests"
-            ],
-            "id": "280082f2-e664-4edc-9a89-df30322472d7",
-            "source": {
-              "x": 420,
-              "y": 440
-            },
-            "target": {
-              "cell": "c68943b3-76f8-4ae4-bdba-c5c35748b6e8",
-              "port": "368275e3-16ec-48de-b0bf-c47f00c8bd87"
-            },
-            "vertices": [
-              {
-                "x": 310,
-                "y": 540
-              },
-              {
-                "x": 270,
-                "y": 570
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
-                "targetMarker": {
                   "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
                 },
                 "strokeDasharray": null
               }
@@ -1987,7 +1887,7 @@
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": true,
-              "isBidirectional": false,
+              "isBidirectional": true,
               "isEncrypted": false,
               "isPublicNetwork": false,
               "protocol": "",
@@ -2057,7 +1957,7 @@
                   "name": "block"
                 },
                 "sourceMarker": {
-                  "name": ""
+                  "name": "block"
                 },
                 "strokeDasharray": null
               }
@@ -2074,7 +1974,7 @@
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": true,
-              "isBidirectional": false,
+              "isBidirectional": true,
               "isEncrypted": false,
               "isPublicNetwork": false,
               "protocol": "",
@@ -2138,7 +2038,7 @@
                   "name": "block"
                 },
                 "sourceMarker": {
-                  "name": ""
+                  "name": "block"
                 },
                 "strokeDasharray": null
               }
@@ -2155,7 +2055,7 @@
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": true,
-              "isBidirectional": false,
+              "isBidirectional": true,
               "isEncrypted": false,
               "isPublicNetwork": false,
               "protocol": "",
@@ -2207,7 +2107,13 @@
             "target": {
               "cell": "60ab43d8-126a-4c9c-b6c7-f66ac3e86aab",
               "port": "721fe686-2050-4cdf-be62-ad347dbf693f"
-            }
+            },
+            "vertices": [
+              {
+                "x": 820,
+                "y": 850
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -2288,7 +2194,7 @@
                   "name": "block"
                 },
                 "sourceMarker": {
-                  "name": ""
+                  "name": "block"
                 },
                 "strokeDasharray": null
               }
@@ -2305,7 +2211,7 @@
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": true,
-              "isBidirectional": false,
+              "isBidirectional": true,
               "isEncrypted": false,
               "isPublicNetwork": false,
               "protocol": "",
@@ -2362,6 +2268,18 @@
               {
                 "x": 770,
                 "y": 360
+              },
+              {
+                "x": 870,
+                "y": 450
+              },
+              {
+                "x": 960,
+                "y": 520
+              },
+              {
+                "x": 1010,
+                "y": 560
               }
             ]
           },
@@ -2375,7 +2293,98 @@
                   "name": "block"
                 },
                 "sourceMarker": {
-                  "name": ""
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Auth Requests",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "7dbf2379-fb85-4d73-9d78-f89be9962209",
+                  "title": "Service Spoofing",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Confidentiality",
+                  "description": "Fake service impersonates Auth Service",
+                  "mitigation": "mTLS",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 34,
+                  "score": "8"
+                },
+                {
+                  "id": "422ddf9e-a1d7-4cf2-bc5c-68f2202680ac",
+                  "title": "Token Leakage",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Integrity",
+                  "description": "Auth tokens exposed internally",
+                  "mitigation": "Secure token handling",
+                  "modelType": "CIA",
+                  "new": false,
+                  "number": 35,
+                  "score": "7"
+                }
+              ],
+              "trustBoundaryIds": [
+                "2d1fb00b-8341-4450-9c25-1a0b49d20c34"
+              ],
+              "threatFrequency": {
+                "confidentiality": 1,
+                "integrity": 1,
+                "availability": 0
+              }
+            },
+            "labels": [
+              "Auth Requests"
+            ],
+            "id": "280082f2-e664-4edc-9a89-df30322472d7",
+            "source": {
+              "x": 420,
+              "y": 440
+            },
+            "target": {
+              "cell": "c68943b3-76f8-4ae4-bdba-c5c35748b6e8",
+              "port": "368275e3-16ec-48de-b0bf-c47f00c8bd87"
+            },
+            "vertices": [
+              {
+                "x": 310,
+                "y": 540
+              },
+              {
+                "x": 270,
+                "y": 570
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
                 },
                 "strokeDasharray": null
               }
@@ -2392,7 +2401,7 @@
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": true,
-              "isBidirectional": false,
+              "isBidirectional": true,
               "isEncrypted": false,
               "isPublicNetwork": false,
               "protocol": "",
@@ -2463,7 +2472,7 @@
                   "name": "block"
                 },
                 "sourceMarker": {
-                  "name": ""
+                  "name": "block"
                 },
                 "strokeDasharray": null
               }
@@ -2480,7 +2489,7 @@
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": true,
-              "isBidirectional": false,
+              "isBidirectional": true,
               "isEncrypted": false,
               "isPublicNetwork": false,
               "protocol": "",
